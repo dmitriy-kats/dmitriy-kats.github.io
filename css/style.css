@@ -84,8 +84,8 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-  min-height:400px;
-  background:url('../img/rear_bike.jpg') -250px -1900px;
+  min-height:300px;
+  background:url('../img/rear_bike.jpg') -250px -1800px;
   text-align:center;
   color:#ffffff;
 }
@@ -106,14 +106,19 @@ header a:hover{
 }
 
 #boxes .box{
-  float:left;
-  text-align: center;
-  width:30%;
-  padding:10px;
+  float:right;
+  text-align: left;
+  width:90%;
+  padding:40px;
+
 }
 
 #boxes .box img{
   width:300px;
+  float: left;
+  padding-right:30px;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 
 /* Sidebar */
